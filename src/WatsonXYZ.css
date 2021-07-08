@@ -1,7 +1,26 @@
 .Watson-xyz {
   text-align: center;
+  background-color: darkcyan;
 }
 
 .Company-logo{
-font-size: xxx-large;
+  font-family: 'Droid Serif', Georgia, Times, serif;
+  text-shadow: 1px 1px 1px #aaa;
+  color: #4f5050;
+  font-size: 49px;
+  line-height: 65px;
+}
+
+h2{
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  color: #4f5050;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+p{
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  color: #adb5bd;
+  font-size: medium;
 }
