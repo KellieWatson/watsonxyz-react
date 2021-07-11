@@ -1,10 +1,12 @@
-import './WatsonXYZ.css';
+import './style/WatsonXYZ.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Header";
 
 function WatsonXYZ() {
   return (
-    <div className="Watson-xyz">
-    <header>
+    <div>
+      <Header />
+    <body className="Watson-xyz">
       <h1 className="Company-logo">WatsonXYZ </h1>
       <div>
         <h2>Subject: </h2>
@@ -14,10 +16,10 @@ function WatsonXYZ() {
         <p> To help each person of our diverse communities to embrace and highlight life’s opportunities while avoiding unnecessary financial hazards, thus transforming lives and expanding human potential.
         </p>
         <h2>Mission Statement:</h2>
-          <p> To leverage advancing technologies to provide financial and organizational guidance.
+          <p> To leverage advancing technologies to provide simple, actionable financial and organizational guidance.
     </p>
     </div>
-    </header>
+    </body>
     </div>
   );
 }
