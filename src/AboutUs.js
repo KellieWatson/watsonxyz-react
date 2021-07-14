@@ -10,7 +10,7 @@ const AboutUs =()=>{
             <p> Enhancing individuals' efficiency and financial prowess.
             </p>
             <h2>Company Purpose:</h2>
-            <p> To help each person of our diverse communities to embrace and highlight life’s opportunities while avoiding unnecessary financial hazards, thus transforming lives and expanding human potential.
+            <p> To help each member of our diverse communities to embrace and highlight life’s opportunities while avoiding unnecessary financial hazards, thus transforming lives and expanding human potential.
             </p>
             <h2>Mission Statement:</h2>
             <p> To leverage advancing technologies to provide simple, actionable financial and organizational guidance.
