@@ -1,5 +1,10 @@
-import { Link, BrowserRouter } from 'react-router-dom';
+import {Link, BrowserRouter, Switch, Route} from 'react-router-dom';
 import './style/Home.css'
+import Finance from "./Finance";
+import Technology from "./Technology";
+import DashBoard from "./DashBoard";
+import AboutUs from "./AboutUs";
+import {Card} from "react-bootstrap";
  function Home() {
     return (
         <div className="container">
@@ -14,40 +19,41 @@ import './style/Home.css'
                 </p>
 
                 <div className="grid">
+                    <Card>
                     <Link to="/finance">
-                        <a className="card">
-
                             <h3>Finance &rarr;</h3>
                             <p>Practical financial guides, and discussions for the everyday person.</p>
 
-                        </a>
+
                     </Link>
+                    </Card>
+                    <Card>
                     <Link to="/technology">
-                        <a className="card">
+
                             <h3>Technology &rarr;</h3>
                             <p>Leveraging technology to improve financial productivity and efficiency.</p>
 
-                        </a>
+
                     </Link>
+                </Card>
+                    <Card>
                     <Link to="/dashboard">
-                        <a
-                            className="card"
-                        >
+
                             <h3>WatsonXYZ Dashboard &rarr;</h3>
                             <p>Explore our teams finance and productivity tools in action.</p>
-                        </a>
-                    </Link>
 
-                    <Link to="/about-us">
-                        <a
-                            className="card"
-                        >
+                    </Link>
+                </Card>
+                    <Card>
+                    <Link to="/AboutUs">
+
                             <h3>About Us &rarr;</h3>
                             <p>
                                 Find out more about the WatsonXYZ Team and our mission.
                             </p>
-                        </a>
+
                     </Link>
+                </Card>
                 </div>
                 <p className="description">
                     Learn to Produce then Produce to Learn
