@@ -5,25 +5,16 @@ import Technology from "./Technology";
 import DashBoard from "./DashBoard";
 import AboutUs from "./AboutUs";
 import {Card} from "react-bootstrap";
-import HomeLayout from "./HomeLayout";
+import HomeBody from "./HomeBody";
  function Home() {
     return (
         <div className="container">
         <BrowserRouter>
-    <HomeLayout />
+    <HomeBody />
+
         </BrowserRouter>
 
-            <footer>
-                <a
-                    href="https://watsonxyz.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Powered by{' '}
-                    {' '}WatsonXYZ
-                </a>
-            </footer>
-
+x
             <style jsx>{`
 
       `}</style>

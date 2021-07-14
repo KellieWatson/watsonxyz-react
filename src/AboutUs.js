@@ -2,7 +2,7 @@ import Header from "./Header";
 import React from 'react';
 import './style/AboutUs.css'
 const AboutUs =()=>{
-    return(<div>
+    return(<main>
         <body className="About-us">
         <h1 className="Company-logo">WatsonXYZ </h1>
         <div>
@@ -17,6 +17,6 @@ const AboutUs =()=>{
             </p>
         </div>
         </body>
-    </div>);
+    </main>);
 }
 export default AboutUs;

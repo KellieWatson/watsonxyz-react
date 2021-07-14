@@ -2,8 +2,8 @@ import Header from "./Header";
 import React from 'react';
 
 const Technology =()=>{
-    return(<div>
+    return(<main>
        Technolgy
-    </div>);
+    </main>);
 }
 export default Technology;

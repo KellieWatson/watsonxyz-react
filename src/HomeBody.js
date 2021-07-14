@@ -1,7 +1,7 @@
 import {Card} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-function HomeLayout(){
+function HomeBody(){
     return( <main>
         <h1 className="title">
             <a href="https://watsonxyz.com">WatsonXYZ</a>
@@ -15,9 +15,7 @@ function HomeLayout(){
             <Card>
                 <Link to="/Finance">
                     <h3>Finance &rarr;</h3>
-                    <p>Practical financial guides, and discussions for the everyday person.</p>
-
-
+                    <p>Practical financial guides, and discussions.</p>
                 </Link>
             </Card>
             <Card>
@@ -53,4 +51,4 @@ function HomeLayout(){
         </p>
     </main>);
 }
-export default HomeLayout;
+export default HomeBody;

@@ -1,3 +1,3 @@
-const Finance = ()=> {return(<div>Finance</div>);}
+const Finance = ()=> {return(<main>Finance</main>);}
 
 export default Finance;
