@@ -1,3 +1,7 @@
 .Topics{
     padding-right: 2vw;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.MasterLogo{
+    text-shadow: 1px 1px 1px #ccc;
 }

@@ -7,7 +7,7 @@ import './style/NavBar.css'
 const NavBar=()=>{
     return(
         <Navbar bg="light" expand="lg" sticky="top">
-            <Navbar.Brand href="/">WatsonXYZ</Navbar.Brand>
+            <Navbar.Brand href="/" className="MasterLogo">WatsonXYZ</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav
