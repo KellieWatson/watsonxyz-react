@@ -47,7 +47,7 @@ function HomeBody(){
             </Card>
         </div>
         <p className="description">
-            Learn to Produce then Produce to Learn
+            Learn to Produce  &rarr;  Produce to Learn
         </p>
     </main>);
 }
