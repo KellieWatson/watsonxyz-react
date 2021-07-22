@@ -15,7 +15,7 @@ const NavBar=()=>{
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
-                <Link to="/" className="Topics">Home</Link>
+                {/*<Link to="/" className="Topics">Home</Link>*/}
                 <Link to="/Finance" className="Topics">Finance </Link>
                <Link to="/Technology" className="Topics">Technology </Link>
                <Link to="/DashBoard" className="Topics">DashBoard </Link>
