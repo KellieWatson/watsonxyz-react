@@ -13,10 +13,10 @@ return(<div>
     <NavBar/>
         <Switch>
             <Route exact path="/" className="Company-logo">{Home}</Route>
-            <Route exact path="/Finance" className="Route" component={Finance}></Route>
-            <Route exact path="/Technology" className="Route" component={Technology}></Route>
-            <Route exact path="/DashBoard" className="Route" component={DashBoard}></Route>
-        <Route exact path="/AboutUs" className="Route" component={AboutUs}></Route>
+            <Route path="/Finance" className="Route" component={Finance}></Route>
+            <Route path="/Technology" className="Route" component={Technology}></Route>
+            <Route path="/DashBoard" className="Route" component={DashBoard}></Route>
+        <Route path="/AboutUs" className="Route" component={AboutUs}></Route>
         </Switch>
     </BrowserRouter>
     </header>

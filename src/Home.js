@@ -14,7 +14,6 @@ import HomeBody from "./HomeBody";
 
         </BrowserRouter>
 
-x
             <style jsx>{`
 
       `}</style>
